@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.app-container {
+  padding: 30px 200px 0px 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.heading-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.title-name {
+  color: #2998da;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0px 60px 20px 60px;
+}
+
+.input-bar {
+  border: none;
+  width: 100%;
+  padding: 8px;
+  border-bottom: 2px rgb(174, 174, 174) solid;
+  text-align: center;
+  color: rgb(174, 174, 174);
+}
+
+.search-label {
+  font-weight: 900;
+}
+
+.place-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.contect-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.place-title .title-list-style {
+  font-size: 19px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+}
+
+.place-description,
+.more-info,
+.category-tag {
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+}
+
+.main-photo {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.category-tag {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag-search {
+  cursor: pointer;
+}
+
+.photo-copy-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copy-link {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.photo {
+  width: 100px;
+  height: 97px;
+  border-radius: 10px;
+}
+
+.more-info .url-style {
+  color: #2998da;
+}
